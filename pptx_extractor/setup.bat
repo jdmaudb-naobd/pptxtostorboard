@@ -26,5 +26,5 @@ REM Download spaCy model
 echo Downloading spaCy model...
 python -m spacy download en_core_web_sm
 
-echo Setup complete! You can now run the application using 'python gui.py'
-pause 
+echo Setup complete! Launching application...
+python gui.py 
